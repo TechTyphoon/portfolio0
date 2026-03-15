@@ -1,10 +1,48 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/work", "destination": "/work.html" },
-    { "source": "/project", "destination": "/project.html" },
-    { "source": "/contact", "destination": "/contact.html" }
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/work",
+      "destination": "/work.html"
+    },
+    {
+      "source": "/project",
+      "destination": "/project.html"
+    },
+    {
+      "source": "/project2",
+      "destination": "/project2.html"
+    },
+    {
+      "source": "/project3",
+      "destination": "/project3.html"
+    },
+    {
+      "source": "/project4",
+      "destination": "/project4.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/publication1",
+      "destination": "/publication1.html"
+    },
+    {
+      "source": "/publication2",
+      "destination": "/publication2.html"
+    },
+    {
+      "source": "/publication3",
+      "destination": "/publication3.html"
+    },
+    {
+      "source": "/publication4",
+      "destination": "/publication4.html"
+    }
   ]
 }

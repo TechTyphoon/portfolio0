@@ -1,34 +1,34 @@
 const slides = [
   {
-    slideTitle: "Brainstorm OS",
+    slideTitle: "Autonomous Drone Swarm",
     slideDescription:
-      "A concept UI for a neural-thinking workspace. Designed to visualize raw ideas, tangled thoughts, and clean execution — all at once.",
+      "An IEEE-backed system for coordinating multiple UAVs in search and rescue operations. Features real-time pathfinding and collision avoidance.",
     slideUrl: "/project",
-    slideTags: ["Web Design", "UI/UX", "Concept UI", "Creative Dev"],
+    slideTags: ["Robotics", "Python", "IEEE", "AI"],
     slideImg: "/work/slider-img-1.jpg",
   },
   {
-    slideTitle: "Orange Room",
+    slideTitle: "Blockchain Voting System",
     slideDescription:
-      "A surreal microsite exploring control, uniformity, and digital disconnect. Built with scroll-reactive animations and bold, brutalist layout.",
-    slideUrl: "/project",
-    slideTags: ["Creative Dev", "Scroll UX", "Experimental", "Visual Story"],
+      "A decentralized application ensuring secure and transparent elections. Built to solve voter fraud using Ethereum smart contracts.",
+    slideUrl: "/project2.html",
+    slideTags: ["Blockchain", "Solidity", "React", "Security"],
     slideImg: "/work/slider-img-2.jpg",
   },
   {
-    slideTitle: "Futureschool",
+    slideTitle: "Smart Grid Analysis",
     slideDescription:
-      "A quirky concept for a 60s-style AI education platform. Handcrafted visuals meet structured layouts for a playful learning interface.",
-    slideUrl: "/project",
-    slideTags: ["UI Design", "Theme Concept", "Playful UX", "Frontend"],
+      "Deep learning model for predicting power load in urban environments. Published findings on efficiency improvements in renewable energy sectors.",
+    slideUrl: "/project3.html",
+    slideTags: ["Data Science", "Machine Learning", "Python", "Energy"],
     slideImg: "/work/slider-img-3.jpg",
   },
   {
-    slideTitle: "Mindwave Grid",
+    slideTitle: "IoT Home Automation",
     slideDescription:
-      "A visual identity experiment for a VR-based ideation tool. Dynamic grids, floating modules, and warm tones bring structure to wild thinking.",
-    slideUrl: "/project",
-    slideTags: ["VR Design", "Grid System", "Creative Tech", "3D UI"],
+      "A custom hardware-software bridge allowing voice control of legacy appliances. Integrated with Alexa and Google Home APIs.",
+    slideUrl: "/project4.html",
+    slideTags: ["IoT", "Embedded C", "Hardware", "MQTT"],
     slideImg: "/work/slider-img-4.jpg",
   },
 ];

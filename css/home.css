@@ -216,7 +216,7 @@
 
 .home-services .cards {
   position: fixed;
-  top: 0;
+  top: 0; 
   left: 0;
   width: 100vw;
   height: 100svh;
@@ -399,7 +399,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transform: translateY(5%);
+  transform: translateY(5%) scale(1.4);
   will-change: transform;
   z-index: -1;
 }
@@ -411,9 +411,22 @@
   gap: 2rem;
 }
 
+.home-spotlight .home-spotlight-images-row.pair-centered-row {
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-spotlight .home-spotlight-images-row.pair-centered-row .home-spotlight-image.image-holder {
+  flex: 0 0 34%;
+}
+
+.home-spotlight .home-spotlight-images-row.pair-centered-row .home-spotlight-image:not(.image-holder) {
+  display: none;
+}
+
 .home-spotlight .home-spotlight-image {
   flex: 1;
-  aspect-ratio: 5/7;
+  aspect-ratio: 2/1;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -430,8 +443,8 @@
   height: 100svh;
   overflow: hidden;
   z-index: 10;
-  -webkit-mask: url(/global/spotlight-mask.svg) center/contain no-repeat;
-  mask: url(/global/spotlight-mask.svg) center/contain no-repeat;
+  -webkit-mask: url(/global/spotlight-mask.svg) center 60%/contain no-repeat;
+  mask: url(/global/spotlight-mask.svg) center 60%/contain no-repeat;
   -webkit-mask-size: 0%;
   mask-size: 0%;
 }

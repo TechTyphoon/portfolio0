@@ -394,10 +394,10 @@ document.addEventListener("DOMContentLoaded", () => {
           if (remainingProgress > 0) {
             const distanceMultiplier = 1 - index * 0.15;
             xPos =
-              -window.innerWidth * 0.3 * distanceMultiplier * remainingProgress;
+              -window.innerWidth * .19 * distanceMultiplier * remainingProgress;
             yPos =
               -window.innerHeight *
-              0.3 *
+              0.19 *
               distanceMultiplier *
               remainingProgress;
           }
